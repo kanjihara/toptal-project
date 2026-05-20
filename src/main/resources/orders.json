@@ -1,0 +1,56 @@
+[
+  {
+    "order_id": 1,
+    "customer_id": 1,
+    "customer_name": "Russell Smith",
+    "loyalty_points": 5,
+    "order_items": [
+      {
+        "product_id": 10,
+        "product_name": "Portable Charger",
+        "product_category": "Electronics",
+        "unit_price": 49.99
+      }
+    ]
+  },
+  {
+    "order_id": 2,
+    "customer_id": 2,
+    "customer_name": "Maria Garcia",
+    "loyalty_points": 12,
+    "order_items": [
+      {
+        "product_id": 21,
+        "product_name": "Running Shoes",
+        "product_category": "Sports",
+        "unit_price": 89.99
+      },
+      {
+        "product_id": 22,
+        "product_name": "Water Bottle",
+        "product_category": "Sports",
+        "unit_price": 14.99
+      }
+    ]
+  },
+  {
+    "order_id": 3,
+    "customer_id": 3,
+    "customer_name": "James Lee",
+    "loyalty_points": 8,
+    "order_items": [
+      {
+        "product_id": 5,
+        "product_name": "Wireless Mouse",
+        "product_category": "Electronics",
+        "unit_price": 29.99
+      },
+      {
+        "product_id": 6,
+        "product_name": "USB Hub",
+        "product_category": "Electronics",
+        "unit_price": 19.99
+      }
+    ]
+  }
+]
