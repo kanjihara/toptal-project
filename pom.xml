@@ -18,16 +18,16 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <java.version>26</java.version>
+    <java.version>24</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>26</maven.compiler.release>
+    <maven.compiler.release>24</maven.compiler.release>
   </properties>
 
   <dependencies>
-    <!-- Spring Boot -->
+    <!-- Spring Boot Web -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
     <!-- Jackson is already included transitively by many Spring Boot starters.
@@ -37,6 +37,13 @@
       <artifactId>jackson-databind</artifactId>
     </dependency>
 
+
+    <!-- Swagger / OpenAPI -->
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      <version>2.6.0</version>
+    </dependency>
 
     <!-- Testing -->
     <dependency>
